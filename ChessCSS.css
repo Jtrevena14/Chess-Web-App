@@ -1,0 +1,25 @@
+body{
+    display:grid;
+    place-items: center;
+}
+ul{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+li{
+    font-size:0;
+    user-select: none;
+    font-weight:bold;
+    display:grid;
+    place-items: center;
+    border:solid 2px;
+    width:75px;
+    height:75px;
+    
+}
+li img{
+    user-select: none;
+}
+.board div{
+    display:flex;
+}
